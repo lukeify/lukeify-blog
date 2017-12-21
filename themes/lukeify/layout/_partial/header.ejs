@@ -1,0 +1,10 @@
+<header>
+    <h1><a href="/"><span id="slightly-less-weighted"><%= config.title %></span>blog</a></h1>
+    <nav>
+        <ul>
+            <% for (var i in theme.menu){ %>
+            <li><a class="hide-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+            <% } %>
+        </ul>
+    </nav>
+</header>

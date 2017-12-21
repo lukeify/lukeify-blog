@@ -1,0 +1,21 @@
+<article class="post">
+    <h1><%- page.title %></h1>
+
+    <div class="deets">
+        <time datetime="<%- page.date.format() %>" title="<%- page.date.format() %>"><%= page.date.format(config.date_format) %></time>
+    </div>
+
+    <% if (page.tags && page.tags.length){ %>
+    <%
+        var tags = [];
+        page.tags.forEach(function(tag){
+            tags.push('<a class="tag" href="' + config.root + tag.path + '">#' + tag.name + '</a>');
+        });
+    %>
+    <aside class="tags">
+        <%- tags.join(' ') %>
+    </aside>
+    <% } %>
+
+    <%- page.content %>
+</article>

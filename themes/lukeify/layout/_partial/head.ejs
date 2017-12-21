@@ -1,0 +1,33 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <meta name="description" content="<% if (config.subtitle){ %><%= config.subtitle %><% } %>">
+    <meta name="author" content="Luke Davia">
+    <meta name="canonical" content="http://blog.lukeify.com/">
+
+    <% if (is_post()) { %>
+        <meta name="og:title" content="<%- page.title %>">
+        <meta name="og:type" content="post">
+        <meta name="og:description" content="<%- strip_html(page.excerpt) %>">
+        <% if (page.opengraphimage) { %>
+            <meta name="og:image" content="<%- page.permalink + "/" + page.opengraphimage %>">
+        <% } %>
+        <meta name="og:url" content="<%- page.permalink %>">
+        <meta name="og:site_name" content="Blog | Lukeify">
+        <meta name="og:locale" content="en_NZ">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="<%- page.permalink %>">
+        <meta name="twitter:title" content="<%- page.title %>">
+        <meta name="twitter:description" content="<%- strip_html(page.excerpt) %>">
+        <meta name="twitter:domain" content="blog.lukeify.com">
+        <% if (page.opengraphimage) { %>
+            <meta name="twitter:image" content="<%- page.permalink + "/" + page.opengraphimage %>">
+        <% } %>
+        <meta name="twitter:site" content="@lukealization">
+        <meta name="twitter:creator" content="@lukealization">
+        <title><%- page.title %> | Lukeify</title>
+    <% } else { %>
+        <title>Blog | Lukeify</title>
+    <% } %>
+</head>

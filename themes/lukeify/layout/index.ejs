@@ -1,0 +1,7 @@
+<p class="subtitle"><% if (config.subtitle){ %><%= config.subtitle %><% } %></p>
+
+<% if (page.posts) { %>
+<% page.posts.each(function(item){ %>
+    <%- partial('_partial/article-excerpt', {item: item}) %>
+<% }); %>
+<% } %>
