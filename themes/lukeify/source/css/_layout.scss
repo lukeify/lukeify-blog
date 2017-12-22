@@ -17,24 +17,18 @@ html {
 }
 
 body {
-  width:600px;
+  width:$page-width;
   margin:0 auto;
   color:$black;
   font-family:$expo-serif;
+  line-height: 1.7em;
+  font-size:16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family:$brandon-grotesque;
   font-weight:500;
-}
-
-#slightly-less-weighted {
-  font-weight:400;
-  color:lighten($black, 10%);
-}
-
-p {
-  line-height:1.7em;
+  margin-bottom:0;
 }
 
 ::selection {
@@ -45,9 +39,4 @@ p {
 ::moz-selection {
   background:$red;
   color:$white;
-}
-
-a.hide-link {
-  text-decoration:none;
-  color:$black;
 }

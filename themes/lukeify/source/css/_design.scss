@@ -138,7 +138,12 @@ $red:#c4918a;
 $blue:#6093c4;
 $white: #FFF;
 $black: #444;
+$light-black: lighten($black, 50%);
 
 // Fonts
 $brandon-grotesque: "Brandon Grotesque", sans-serif;
 $expo-serif: "Expo Serif Pro", serif;
+
+// Spacings
+$init-margin-top:0.5em;
+$page-width:37.5em; // 600px at 16px body

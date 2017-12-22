@@ -1,8 +1,24 @@
-.separator {
-  border:0;
-  border-bottom:2px dotted rgba($blue, 0.5);
+article {
+  position:relative;
+
+  p {
+    text-align:justify;
+
+    &:first-of-type {
+      margin-top:0.5em;
+    }
+  }
+
+  aside {
+    position:absolute;
+    right:600px + 20px;
+    width:200px;
+    margin-top: $init-margin-top;
+    text-align:right;
+  }
 }
 
-article p {
-  text-align:justify;
+.separator {
+  border:0;
+  border-bottom:1px dotted rgba($blue, 0.5);
 }

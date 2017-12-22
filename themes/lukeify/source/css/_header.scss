@@ -2,11 +2,12 @@ header {
   display:flex;
   justify-content: space-between;
   align-items:baseline;
+  line-height: 3em;
+}
 
-  h1 a {
-    text-decoration:none;
-    color:$black;
-  }
+#slightly-less-weighted {
+  font-weight:400;
+  color:lighten($black, 10%);
 }
 
 nav {
@@ -24,10 +25,14 @@ nav {
   a {
     margin-left:1em;
     padding:0.25em;
-    opacity:0.6;
+    color:$light-black !important;
 
     &:hover {
       text-decoration:underline;
     }
+  }
+
+  li:last-child a {
+    padding-right:0;
   }
 }
