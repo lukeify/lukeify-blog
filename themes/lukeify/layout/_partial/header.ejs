@@ -8,3 +8,7 @@
         </ul>
     </nav>
 </header>
+
+<% if (!is_post()) { %>
+<p class="subtitle"><% if (config.subtitle){ %><%= config.subtitle %><% } %></p>
+<% } %>
