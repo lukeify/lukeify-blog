@@ -17,12 +17,16 @@ html {
 }
 
 body {
-  width:$page-width;
+  max-width:$page-width;
   margin:0 auto;
   color:$black;
   font-family:$expo-serif;
   line-height: 1.7em;
   font-size:16px;
+
+  @media (max-width: #{$page-width}) {
+    padding:0 1em;
+  }
 }
 
 .content {
