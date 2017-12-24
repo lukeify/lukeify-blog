@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/lukeify/lukeify-blog.svg)](https://github.com/lukeify/lukeify-blog)
 [![David](https://img.shields.io/david/lukeify/lukeify-blog.svg)](https://github.com/lukeify/lukeify-blog)
-[![Posts](https://img.shields.io/badge/posts-1-blue.svg)](http://blog.lukeify.com)
+[![Posts](https://img.shields.io/badge/posts-2-blue.svg)](http://blog.lukeify.com)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](http://blog.lukeify.com)
 
 ![](assets/blog.lukeify.png)

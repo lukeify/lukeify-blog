@@ -1,12 +1,9 @@
 article {
   position:relative;
+  text-align:justify;
 
-  p {
-    text-align:justify;
-
-    &:first-of-type {
-      margin-top:0.5em;
-    }
+  h1 + p, p:first-of-type {
+    margin-top:0.5em;
   }
 
   aside {
@@ -16,9 +13,29 @@ article {
     margin-top: $init-margin-top;
     text-align:right;
   }
+
+  img {
+    max-width:100%;
+  }
+
+  code {
+    color:darken($red, 10%);
+    background-color:#EEE;
+    padding: 0 0.4em;
+    border-radius:3px;
+  }
+}
+
+.caption {
+  font-size:smaller;
 }
 
 .separator {
   border:0;
   border-bottom:1px dotted rgba($blue, 0.5);
+  margin-bottom:4em;
+
+  &:last-child {
+    margin-bottom:unset;
+  }
 }

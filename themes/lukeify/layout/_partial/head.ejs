@@ -11,7 +11,7 @@
         <meta name="og:type" content="post">
         <meta name="og:description" content="<%- strip_html(page.excerpt) %>">
         <% if (page.opengraphimage) { %>
-            <meta name="og:image" content="<%- page.permalink + "/" + page.opengraphimage %>">
+            <meta name="og:image" content="<%- page.permalink + page.opengraphimage %>">
         <% } %>
         <meta name="og:url" content="<%- page.permalink %>">
         <meta name="og:site_name" content="Blog | Lukeify">
@@ -22,7 +22,7 @@
         <meta name="twitter:description" content="<%- strip_html(page.excerpt) %>">
         <meta name="twitter:domain" content="blog.lukeify.com">
         <% if (page.opengraphimage) { %>
-            <meta name="twitter:image" content="<%- page.permalink + "/" + page.opengraphimage %>">
+            <meta name="twitter:image" content="<%- page.permalink + page.opengraphimage %>">
         <% } %>
         <meta name="twitter:site" content="@lukealization">
         <meta name="twitter:creator" content="@lukealization">
