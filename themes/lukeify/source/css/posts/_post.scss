@@ -2,19 +2,19 @@ article {
   position:relative;
   text-align:justify;
 
-  h1 + p, p:first-of-type {
+  h1 + p, > p:first-of-type {
     margin-top:0.5em;
   }
 
   aside {
     position:absolute;
-    right:600px + 20px;
-    width:200px;
+    right:$page-width + 1em;
+    width:15em;
     margin-top: $init-margin-top;
     text-align:right;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1200px) {
     aside {
       position:relative;
       width:100%;
