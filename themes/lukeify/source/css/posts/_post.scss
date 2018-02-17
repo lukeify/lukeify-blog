@@ -33,6 +33,12 @@ article {
     padding: 0 0.4em;
     border-radius:3px;
   }
+
+  hr {
+    border: none;
+    border-bottom: 3px solid #aac6e0;
+    width: 20%;
+  }
 }
 
 .caption {
@@ -48,3 +54,5 @@ article {
     margin-bottom:unset;
   }
 }
+
+
