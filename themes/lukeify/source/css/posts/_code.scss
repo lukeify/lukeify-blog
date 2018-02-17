@@ -1,0 +1,108 @@
+article {
+  // Code blocks
+  figure.highlight {
+    padding:1.5em 0;
+    margin:2em 0;
+    background-color:rgba($blue, 0.1);
+    position:relative;
+    overflow-x:auto;
+
+    // Display language positioning.
+    &:after {
+      bottom:0.25em;
+      right:1em;
+      opacity:0.5;
+      position:absolute;
+    }
+
+    &.c:after { content:"C"; }
+    &.cpp:after { content:"C++"; }
+    &.css:after {content:"CSS"; }
+    &.html:after { content:"HTML"; }
+    &.javascript:after { content:"JavaScript"; }
+    &.json:after { content:"JSON"; }
+    &.sass:after {content:"Sass"; }
+    &.typescript:after { content:"TypeScript"; }
+    &.yaml:after {content:"YAML"; }
+
+    td.gutter {
+      display:none;
+    }
+
+    pre {
+      margin:0;
+      width:100%;
+
+      // Code highlighting. Theme: atom one dark
+      .comment,
+      .quote {
+        color: #acbad5;
+        font-style: italic;
+      }
+
+      .doctag,
+      .keyword,
+      .formula {
+        color: #c678dd;
+      }
+
+      .section,
+      .name,
+      .selector-tag,
+      .deletion,
+      .subst {
+        color: #e06c75;
+      }
+
+      .literal {
+        color: #56b6c2;
+      }
+
+      .string,
+      .regexp,
+      .addition,
+      .attribute,
+      .meta-string {
+        color: #98c379;
+      }
+
+      .built_in,
+      .class .title {
+        color: #e6c07b;
+      }
+
+      .attr,
+      .variable,
+      .template-variable,
+      .type,
+      .selector-class,
+      .selector-attr,
+      .selector-pseudo,
+      .number {
+        color: #d19a66;
+      }
+
+      .symbol,
+      .bullet,
+      .link,
+      .meta,
+      .selector-id,
+      .title {
+        color: #61aeee;
+      }
+
+      .emphasis {
+        font-style: italic;
+      }
+
+      .strong {
+        font-weight: bold;
+      }
+
+      .link {
+        text-decoration: underline;
+      }
+
+    }
+  }
+}

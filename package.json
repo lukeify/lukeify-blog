@@ -2,8 +2,7 @@
   "name": "lukeify-blog",
   "version": "1.0.0",
   "private": false,
-  "scripts": {
-  },
+  "scripts": {},
   "hexo": {
     "version": "3.4.4"
   },

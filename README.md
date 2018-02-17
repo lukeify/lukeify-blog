@@ -44,6 +44,12 @@ Test server:
 hexo server
 ```
 
+To create a new blogpost:
+
+```
+hexo new post "Post Title"
+```
+
 
 See the [Hexo docs](https://hexo.io/docs/index.html) for more.
 
