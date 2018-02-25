@@ -1,29 +1,4 @@
-@font-face {
-    font-family: 'Expo Serif Pro';
-    src: url('../typefaces/ExpoSerifPro-Bold.woff2') format('woff2'),
-        url('../typefaces/ExpoSerifPro-Bold.woff') format('woff'),
-        url('../typefaces/ExpoSerifPro-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Expo Serif Pro';
-    src: url('../typefaces/ExpoSerifPro-Regular.woff2') format('woff2'),
-        url('../typefaces/ExpoSerifPro-Regular.woff') format('woff'),
-        url('../typefaces/ExpoSerifPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Expo Serif Pro';
-    src: url('../typefaces/ExpoSerifPro-Italic.woff2') format('woff2'),
-        url('../typefaces/ExpoSerifPro-Italic.woff') format('woff'),
-        url('../typefaces/ExpoSerifPro-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
+@import url("https://use.typekit.net/mqu3ovh.css");
 
 @font-face {
     font-family: 'Brandon Grotesque';
@@ -142,7 +117,7 @@ $light-black: lighten($black, 50%);
 
 // Fonts
 $brandon-grotesque: "Brandon Grotesque", sans-serif;
-$expo-serif: "Expo Serif Pro", serif;
+$skolar: "skolar-latin", serif;
 
 // Spacings
 $init-margin-top:0.5em;

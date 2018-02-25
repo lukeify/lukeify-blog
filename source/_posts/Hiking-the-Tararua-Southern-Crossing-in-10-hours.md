@@ -1,7 +1,7 @@
 ---
 title: Hiking the Tararua Southern Crossing in 10 hours
 date: 2017-12-24 10:01:51
-tags: [hiking, tararua-forest-park, new-zealand]
+tags: [hiking, fitness, tararua-forest-park, new-zealand]
 opengraphimage: DSC01869.jpg
 use_excerpt: true
 ---
