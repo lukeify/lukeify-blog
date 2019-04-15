@@ -2,7 +2,7 @@ article {
   position:relative;
   text-align:justify;
 
-  h1 + p, > p:first-of-type {
+  h1 + *, > p:first-of-type, > img:first-of-type {
     margin-top:0.5em;
   }
 
