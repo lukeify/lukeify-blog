@@ -3,9 +3,9 @@
     <meta charset="utf-8">
 
     <meta name="description" content="<% if (config.subtitle){ %><%= config.subtitle %><% } %>">
-    <meta name="author" content="Luke Davia">
-    <meta name="canonical" content="http://blog.lukeify.com/">
-    <meta name="copyright" content="Luke Davia">
+    <meta name="author" content="<% if (config.author){ %><%= config.author %><% } %>">
+    <meta name="canonical" content="<% if (config.url){ %><%= config.url %><% } %>">
+    <meta name="copyright" content="<% if (config.author){ %><%= config.author %><% } %>">
     <% if (is_post()) { %>
         <meta name="subject" content="<%- strip_html(page.excerpt) %>">
     <% } %>
@@ -42,8 +42,8 @@
         <% } %>
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="@lukealization">
-        <meta name="twitter:creator" content="@lukealization">
+        <meta name="twitter:site" content="@lukeifynz">
+        <meta name="twitter:creator" content="@lukeifynz">
         <meta name="twitter:description" content="<%- strip_html(page.excerpt) %>">
         <meta name="twitter:title" content="<%- page.title %>">
         <meta name="twitter:url" content="<%- page.permalink %>">
