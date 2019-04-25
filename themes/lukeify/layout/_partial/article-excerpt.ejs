@@ -1,29 +1,29 @@
 <article class="excerpt">
     <h1><a class="hide-link" href="<%- config.root %><%- item.path %>"><%- item.title %></a></h1>
 
-        <aside>
-            <time datetime="<%- item.date.format() %>" title="<%- item.date.format() %>"><%= item.date.format(config.date_format) %></time>
+    <aside>
+        <time datetime="<%- item.date.format() %>" title="<%- item.date.format() %>"><%= item.date.format(config.date_format) %></time>
 
-            <% if (item.tags && item.tags.length){ %>
-            <%
-                var tags = [];
-                item.tags.forEach(function(tag){
-                    tags.push('<a class="tag" href="' + config.root + tag.path + '">#' + tag.name + '</a>');
-                });
-            %>
-            <div class="tags">
-                <%- tags.join(' ') %>
-            </div>
-            <% } %>
-        </aside>
-
-        <% if (item.use_excerpt && item.excerpt) { %>
-        <%- item.excerpt %>
-        <% } else { %>
-        <%- item.content %>
+        <% if (item.tags && item.tags.length){ %>
+        <%
+            var tags = [];
+            item.tags.forEach(function(tag){
+                tags.push('<a class="tag" href="' + config.root + tag.path + '">#' + tag.name + '</a>');
+            });
+        %>
+        <div class="tags">
+            <%- tags.join(' ') %>
+        </div>
         <% } %>
+    </aside>
 
-        <a class="read" href="<%- config.root %><%- item.path %>">Read ⇒</a>
+    <% if (item.use_excerpt && item.excerpt) { %>
+    <%- item.excerpt %>
+    <% } else { %>
+    <%- item.content %>
+    <% } %>
+
+    <a class="read" href="<%- config.root %><%- item.path %>">Read ⇒</a>
 
 </article>
 <hr class="separator">

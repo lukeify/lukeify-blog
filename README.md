@@ -70,6 +70,15 @@ hexo generate
 * Markdown
 * Bash
 
+## Todos
+
+* Switch to Yarn
+* Replace all CSS declarations by following BEM.
+* Remove SASS & replace with CSS Level 4.
+* Implement Darkmode
+* Update dependencies such as Charts.js.
+
+
 ## Versioning
 
 Design & functionality of this site uses [semantic versioning](https://semver.org). Individual posts are outside the scope of versioning.

@@ -1,6 +1,5 @@
 ---
 title: 'Feigning a Unix terminal with JS served over HTTPS, because it''s 2018'
-date: 2017-12-28 12:13:18
 tags: [programming, javascript, terminal, web-development]
 use_excerpt: true
 ---
