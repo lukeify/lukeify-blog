@@ -2,10 +2,6 @@ article {
   position:relative;
   text-align:justify;
 
-  h1 + *, > p:first-of-type, > img:first-of-type {
-    margin-top:0.5em;
-  }
-
   aside {
     position:absolute;
     right:$page-width + 1em;
@@ -25,6 +21,10 @@ article {
 
   img {
     max-width:100%;
+    max-height:40em;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   code {
@@ -38,6 +38,38 @@ article {
     border: none;
     border-bottom: 3px solid #aac6e0;
     width: 20%;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:$brandon-grotesque;
+  font-weight:500;
+}
+
+h1 {
+  font-size:1.5em;
+}
+
+h2 {
+  font-size:1.25em;
+}
+
+p, ul, blockquote, img {
+  margin:1.75em 0;
+}
+
+blockquote {
+  border-left: 0.5em solid lighten($blue, 20%);
+  background-color:rgba($blue, 0.1);
+  padding:0 2em;
+  overflow:hidden;
+
+  p:first-of-type {
+    margin-top:1em;
+  }
+
+  p:last-of-type {
+    margin-bottom:1em;
   }
 }
 
@@ -58,5 +90,3 @@ article {
 .twitter-tweet {
   margin:0 auto;
 }
-
-

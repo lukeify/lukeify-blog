@@ -2,8 +2,8 @@
 
 [![GitHub release](https://img.shields.io/github/release/lukeify/lukeify-blog.svg)](https://github.com/lukeify/lukeify-blog)
 [![David](https://img.shields.io/david/lukeify/lukeify-blog.svg)](https://github.com/lukeify/lukeify-blog)
-[![Posts](https://img.shields.io/badge/posts-3-blue.svg)](http://blog.lukeify.com)
-[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](http://blog.lukeify.com)
+[![Posts](https://img.shields.io/badge/posts-3-blue.svg)](https://blog.lukeify.com)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://blog.lukeify.com)
 
 ![](assets/blog.lukeify.png)
 
@@ -11,7 +11,7 @@ Personal blog, containing scattered collections of personal thoughts, photos, an
 
 ## User Instructions
 
-To view, go to http://blog.lukeify.com.
+To view, go to https://blog.lukeify.com.
 
 ## Getting Started
 
@@ -73,11 +73,11 @@ hexo generate
 ## Todos
 
 * Switch to Yarn
-* Replace all CSS declarations by following BEM.
+* Replace all possible CSS declarations by following BEM.
 * Remove SASS & replace with CSS Level 4.
 * Implement Darkmode
 * Update dependencies such as Charts.js.
-
+* minify & progressively load images from server, while still keeping the site predominantly static.
 
 ## Versioning
 

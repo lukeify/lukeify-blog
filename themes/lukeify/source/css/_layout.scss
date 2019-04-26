@@ -35,39 +35,6 @@ body {
   margin-top:3em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family:$brandon-grotesque;
-  font-weight:500;
-  margin-bottom:0;
-}
-
-h1 {
-  font-size:1.5em;
-}
-
-h2 {
-  font-size:1.25em;
-}
-
-p, ul, blockquote {
-  margin:1.75em 0;
-}
-
-blockquote {
-  border-left: 0.5em solid lighten($blue, 20%);
-  background-color:rgba($blue, 0.1);
-  padding:0 2em;
-  overflow:hidden;
-
-  p:first-of-type {
-    margin-top:1em;
-  }
-
-  p:last-of-type {
-    margin-bottom:1em;
-  }
-}
-
 ::selection {
   background:$purple;
   color:$white;
