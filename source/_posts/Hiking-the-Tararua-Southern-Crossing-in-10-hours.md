@@ -5,9 +5,8 @@ tags: [hiking, fitness, tararua-forest-park, new-zealand]
 opengraphimage: DSC01869.jpg
 use_excerpt: true
 ---
-<blockquote class="embedly-card" data-card-controls="0" data-card-key="f1631a41cb254ca5b035dc5747a5bd75"><h4><a href="https://www.relive.cc/view/1324889984?r=embed-site">Relive 'Tararua Southern Crossing'</a></h4></blockquote>
-        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-        
+{% lukeify_video relive-tararua-southern-crossing.mp4 video/mp4 %}
+
 In my continuous attempts at self-oneupsmanship, I formulated a plan in the past month to take advantage of the {% asset_link soil-moisture-deficit.png abnormally dry & stable %} November & December weather Wellington has been experiencing to hike the [Tararua Southern Crossing](http://www.doc.govt.nz/parks-and-recreation/places-to-go/wellington-kapiti/places/tararua-forest-park/things-to-do/tracks/tararua-southern-crossing/), a nominal 32km walk stretching from Kaitoke to Otaki Forks on the western side of the range, heading in a northwest direction. Normally this is completed in 2-3 days as a multi-day hike, but it can be turned into a single knee-pain-inducing endeavour with some planning and an early start.
 
 <!-- more -->
