@@ -1,0 +1,27 @@
+.device-placeholder {
+  position:relative;
+  max-width:50%;
+  margin:5em auto;
+  transform:rotate(-9deg);
+
+  &.silver-iphone-xs-skewed {
+    .device-placeholder-img {
+
+    }
+
+    .device-screenshot-img {
+      position: absolute;
+      display: block;
+      z-index: -1;
+      transform: scale(0.875);
+      transform-origin:center 0;
+      top: 2.65%;
+      margin:0;
+    }
+  }
+}
+
+.device-placeholder-img, .device-screenshot-img {
+  display:block;
+  max-height:none;
+}
