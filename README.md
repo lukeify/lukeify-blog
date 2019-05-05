@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/lukeify/lukeify-blog.svg)](https://github.com/lukeify/lukeify-blog)
 [![David](https://img.shields.io/david/lukeify/lukeify-blog.svg)](https://github.com/lukeify/lukeify-blog)
-[![Posts](https://img.shields.io/badge/posts-3-blue.svg)](https://blog.lukeify.com)
+[![Posts](https://img.shields.io/badge/posts-8-blue.svg)](https://blog.lukeify.com)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://blog.lukeify.com)
 
 ![](assets/blog.lukeify.png)
@@ -11,7 +11,7 @@ Personal blog, containing scattered collections of personal thoughts, photos, an
 
 ## User Instructions
 
-To view, go to https://blog.lukeify.com.
+To view, go to [https://blog.lukeify.com](https://blog.lukeify.com).
 
 ## Getting Started
 
@@ -64,20 +64,19 @@ hexo generate
 
 ## Built With
 
-* NPM
-* Hexo static generator
-* Nginx
-* Markdown
+* [Yarn Package Manager](https://yarnpkg.com) (Package Manager)
+* [Hexo](https://hexo.io) (Static Site Generator)
+* [Nginx](https://www.nginx.com) (Web Server)
+* [Markdown](https://daringfireball.net/projects/markdown/) (Writing)
 * Bash
 
 ## Todos
 
-* Switch to Yarn
 * Replace all possible CSS declarations by following BEM.
 * Remove SASS & replace with CSS Level 4.
-* Implement Darkmode
-* Update dependencies such as Charts.js.
-* minify & progressively load images from server, while still keeping the site predominantly static.
+* Embed Relive videos directly instead of relying on their CDN.
+* Ensure `prefers-color-scheme:dark` looks good for code in content.
+* Minify & progressively load images from server, while still keeping the site predominantly static.
 
 ## Versioning
 
