@@ -28,7 +28,7 @@ article {
   }
 
   code {
-    color:$purple-dark;
+    color: $violet;
     background-color:#EEE;
     padding: 0 0.4em;
     border-radius:3px;
@@ -36,7 +36,7 @@ article {
 
   hr {
     border: none;
-    border-bottom: 3px solid #aac6e0;
+    border-bottom: 3px solid $sky;
     width: 20%;
   }
 }
@@ -71,6 +71,11 @@ blockquote {
   p:last-of-type {
     margin-bottom:1em;
   }
+
+  @media(prefers-color-scheme: dark) {
+    border-left: 0.5em solid lighten($blue-for-dark-mode, 20%);
+    background-color:rgba($blue-for-dark-mode, 0.1);
+  }
 }
 
 .caption {
@@ -84,6 +89,10 @@ blockquote {
 
   &:last-child {
     margin-bottom:unset;
+  }
+
+  @media(prefers-color-scheme: dark) {
+    border-bottom:1px dotted rgba($blue-for-dark-mode, 0.5);
   }
 }
 

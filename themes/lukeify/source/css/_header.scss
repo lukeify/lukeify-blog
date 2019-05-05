@@ -8,6 +8,10 @@ header {
 #slightly-less-weighted {
   font-weight:400;
   color:lighten($black, 10%);
+
+  @media(prefers-color-scheme: dark) {
+    color:$white;
+  }
 }
 
 nav {
@@ -25,7 +29,7 @@ nav {
   a {
     margin-left:1em;
     padding:0.25em;
-    color:$light-black !important;
+    color: $grey !important;
 
     &:hover {
       text-decoration:underline;

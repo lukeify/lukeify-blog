@@ -14,6 +14,10 @@ html:before {
 html {
   min-height:100vh;
   background-color:$white;
+
+  @media(prefers-color-scheme: dark) {
+    background-color:$black;
+  }
 }
 
 body {
@@ -23,6 +27,10 @@ body {
   font-family: $skolar;
   line-height: 1.7em;
   font-size:16px;
+
+  @media(prefers-color-scheme: dark) {
+    color:$white-for-dark-mode;
+  }
 
   @media (max-width: #{$page-width + 1em}) {
     max-width:100%;

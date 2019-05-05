@@ -1,10 +1,18 @@
 :link, :visited {
   color:$blue;
   transition:all ease-in-out 0.1s;
+
+  @media(prefers-color-scheme: dark) {
+    color:$blue-for-dark-mode;
+  }
 }
 
 a:hover {
-  color:blue;
+  color:$aqua;
+
+  @media(prefers-color-scheme: dark) {
+    color: $aqua-for-dark-mode;
+  }
 }
 
 a:active {
@@ -14,4 +22,8 @@ a:active {
 a.hide-link {
   text-decoration:none;
   color:$black;
+
+  @media(prefers-color-scheme: dark) {
+    color:$white-for-dark-mode;
+  }
 }

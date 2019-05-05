@@ -108,18 +108,32 @@
     font-style: normal;
 }
 
-// Colors
-$purple: #8447b6;
-$purple-dark: darken($purple, 20%);
+/**
+ * COLORS
+ */
+$white: #FFFFFF;
+$black: #444448;
+$grey: lighten($black, 50%);
+$sky: #aac6e0;
 $blue:#6093c4;
-$white: #FFF;
-$black: #444;
-$light-black: lighten($black, 50%);
+$aqua: #0000FF;
+$purple: #8447b6;
+$violet: darken($purple, 20%);
 
-// Fonts
+$white-for-dark-mode: #F8F8F8;
+$blue-for-dark-mode: #5ca3e5;
+$aqua-for-dark-mode: #3377ff;
+
+
+
+/**
+ * FONTS
+ */
 $brandon-grotesque: "Brandon Grotesque", sans-serif;
 $skolar: "skolar-latin", serif;
 
-// Spacings
+/**
+ * SPACINGS
+ */
 $init-margin-top:0.5em;
 $page-width:44em; // 704px at 16px body
